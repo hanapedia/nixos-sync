@@ -1,0 +1,33 @@
+# Build output
+bin/
+nixos-sync
+
+# Local configuration
+hosts.toml
+
+# Go build/cache
+*.exe
+*.out
+*.test
+*.log
+*.tmp
+
+# Go modules
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# Misc
+.env
+*.bak
+*.old
